@@ -113,7 +113,7 @@ class FormController extends BaseController
 
         //envio de correo
 
-       if($this->inscritos()<=40)
+       if($this->inscritos()<=50)
        {
 
         $this->store($formulario, $request->input());
